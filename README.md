@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# php-extension-classes README
+# php-extension-classes
 
 This is the README for your extension "php-extension-classes". After writing up a brief description, we recommend including the following sections.
 
@@ -64,7 +63,3 @@ Added features X, Y, and Z.
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
-=======
-# vscode-php-extension-classes
-vscode-php-extension-classes
->>>>>>> 02b90fe8b8d3d26d810842ce947dd6a4df914f90
