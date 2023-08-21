@@ -1,0 +1,57 @@
+{
+  "name": "php-extension-classes",
+  "displayName": "PHP Extension Classes",
+  "description": "PHP Extension Classes for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:php-extension-classes.helloWorld",
+    "onLanguage:php"
+  ],
+  "keywords": [
+    "php",
+    "intellisense",
+    "symbols",
+    "language",
+    "extension",
+    "support"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phprao/vscode-php-extension-classes.git"
+  },
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "php-extension-classes.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "php-extension-classes.showNumber",
+        "title": "show number"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.46.0",
+    "eslint": "^7.15.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.1.3",
+    "typescript": "^4.1.2",
+    "vscode-test": "^1.4.1"
+  }
+}
